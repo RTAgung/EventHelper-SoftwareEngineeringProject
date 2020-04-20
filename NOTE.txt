@@ -1,0 +1,13 @@
+- users
+	- VerifiedAccount = {TRUE, FALSE}
+- departements
+	- Id (4 huruf dengan singkatan dan kapital)
+- detail_committees
+	- Role = {"staff", "head", "creator"}
+- events
+	- Status = {"upcoming", "pending", "canceled", "finished"}
+- tickets
+	- Payment = {"on credit", "paid off"}
+	- Attendace = {TRUE, FALSE}
+- committees
+	- Status = {"pending", "accepted", "rejected"}
