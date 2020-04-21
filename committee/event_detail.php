@@ -168,7 +168,7 @@
           <div class="row">
             <div class="col-12">
               <h4>Description</h4>
-              <p><?php echo nl2br($rowEvent->Description); ?></p>
+              <p style="text-align: justify;"><?php echo nl2br($rowEvent->Description); ?></p>
               <hr>
               <p class="m-0">organized by <?=$rowEvent->Company?></p>
             </div>

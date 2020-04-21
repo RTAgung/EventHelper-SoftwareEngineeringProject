@@ -125,11 +125,11 @@
           <tr>
             <td colspan="2">
               <h5>Description</h5>
-              <p><?php echo nl2br($row->Description); ?></p>
+              <p style="text-align: justify;"><?php echo nl2br($row->Description); ?></p>
             </td>
           </tr>
           <tr>
-            <td colspan="2">organixzed by <?=$row->Company?></td>
+            <td colspan="2">organized by <?=$row->Company?></td>
           </tr>
         </table>
       </div>
@@ -164,6 +164,9 @@
         $num = 0;
         $disabled = "";
       }
+      if ($remaining == 0) {
+        $disabled = "disabled";
+      }
      ?>
     <div class="center py-4">
       <h5>Rp.<?=$row->Price?></h5>
@@ -188,7 +191,7 @@
       }
       ?>
     </div>
-  </main>
+  </main> 
 
   <!-- ------------------------------------------------ FOOTER ------------------------------------------------ -->
 

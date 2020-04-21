@@ -67,7 +67,7 @@
 
   <main class="container-fluid p-5 text-white">
     <div class="row justify-content-md-center">
-      <div class="col-7 bg-dark2 p-5">
+      <div class="col-8 bg-dark2 p-5">
         <h1 class="text-center mb-4">CREATE EVENT</h1>
         <label class="text-warning mb-4 mt-3">* This form can be edited after it is created</label>
         <form method="post" action="createeventprocess.php">
@@ -105,7 +105,7 @@
           </div>
           <div class="form-group">
             <label>Description</label>
-            <textarea class="form-control bg-transparent text-white rounded-0" id="exampleFormControlTextarea1" name="description" rows="3" required>This is default description</textarea>
+            <textarea class="form-control bg-transparent text-white rounded-0" id="exampleFormControlTextarea1" name="description" rows="6" required>This is default description</textarea>
           </div>
           <div class="form-group py-1">
             <button type="submit" class="mt-4 btn btn-success btn-block rounded-0" name="submit">Create</button>
